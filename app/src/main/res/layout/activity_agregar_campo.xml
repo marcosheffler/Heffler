@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/agregarCamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10sp"
+        android:layout_marginBottom="10sp"
+        android:src="@android:drawable/ic_menu_save"
+        android:scaleType="center" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollvertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:text="Campo:"
+        style="@style/Texto"/>
+
+    <EditText
+        android:id="@+id/campoAg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+            <TextView
+                android:text="Lote:"
+                style="@style/Texto"/>
+
+            <EditText
+                android:id="@+id/loteAg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="Fecha:"
+                style="@style/Texto"/>
+
+            <EditText
+                android:id="@+id/fechaAg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:focusable="false"
+                android:clickable="true"
+                android:maxLines="1" /> />
+
+    <TextView
+        android:text="Hectareas:"
+        style="@style/Texto"/>
+
+    <EditText
+        android:id="@+id/hectareasAg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+
+    <TextView
+        android:text="Cereal"
+        style="@style/Texto"/>
+
+            <Spinner android:id="@+id/cerealAg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Maquina:"
+        style="@style/Texto"/>
+
+    <EditText
+        android:id="@+id/maquinaAg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+            <TextView
+                android:text="Rinde:"
+                style="@style/Texto"/>
+
+            <EditText
+                android:id="@+id/rindeAg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+    <TextView
+        android:text="Empleados:"
+        style="@style/Texto"/>
+
+    <EditText
+        android:id="@+id/empleadosAg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
+
+</RelativeLayout>

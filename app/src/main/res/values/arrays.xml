@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Array con los valores de la cabecera de la tabla-->
+    <string-array name="cabecera_general">
+        <item>CAMPO   </item>
+        <item>LOTE    </item>
+        <item>FECHA   </item>
+        <item>HECTAREAS</item>
+        <item>CEREAL   </item>
+        <item>MAQUINA  </item>
+        <item>RINDE    </item>
+        <item>EMPLEADOS</item>
+    </string-array>
+
+    <string-array name="cabecera_borrar">
+        <item>IDENTIFICADOR</item>
+        <item>CAMPO</item>
+        <item>LOTE</item>
+        <item>FECHA</item>
+        <item>HECTAREAS</item>
+        <item>CEREAL</item>
+    </string-array>
+
+    <string-array name="valores_lista_cerales">
+        <item>Seleccionar</item>
+        <item>Soja</item>
+        <item>Trigo</item>
+        <item>Cebada</item>
+        <item>Maiz</item>
+        <item>Girasol</item>
+        <item>Avena</item>
+        <item>Arveja</item>
+    </string-array>
+</resources>
