@@ -2,7 +2,8 @@ package com.example.marco.heffler;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
-import android.icu.util.Calendar;
+import java.util.Calendar;
+//import android.icu.util.Calendar;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.widget.DatePicker;

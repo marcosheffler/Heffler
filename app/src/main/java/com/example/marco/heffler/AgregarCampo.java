@@ -1,9 +1,12 @@
 package com.example.marco.heffler;
 
+import android.annotation.TargetApi;
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.icu.util.Calendar;
+//import android.icu.util.Calendar;
+import java.util.Calendar;
+import android.os.Build;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +28,8 @@ public class AgregarCampo extends AppCompatActivity implements View.OnClickListe
 
     //variable para el cereal seleccionado.
     String cerealSeleccionado;
+
+
 
 
     @Override
@@ -121,7 +126,5 @@ public class AgregarCampo extends AppCompatActivity implements View.OnClickListe
     }
 
 
-    private  void nada(){
 
-    }
 }
