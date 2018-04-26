@@ -119,4 +119,9 @@ public class AgregarCampo extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
         this.finish();
     }
+
+
+    private  void nada(){
+
+    }
 }
